@@ -1,0 +1,5 @@
+name,description,last_character_reaction,call_character_reaction,call_character_name,remove_character_reaction,remove_character_name
+Doc,the fearsome leader with glasses,drops his glasses in excitement,starts talking backwards,Dopey,gets scared,Grumpy
+Grumpy,the misnamed dwarf with an otherwise big heart,starts crying with joy,needs to handle his emotions,Dopey,starts to get mad,Sleepy,
+Sleepy,the not so particularly energized dwarf who sleeps a lot,falls asleep,becomes sleepy,Doc,is sleeping,Grumpy
+Dopey,the shy clumsy and slow one who has difficulty keeping up,finally catches up with the others,falls and breaks his leg,Doc,is to afraid to speek,Grumpy
