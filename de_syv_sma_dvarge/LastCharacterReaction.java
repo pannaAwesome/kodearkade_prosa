@@ -2,8 +2,8 @@ package de_syv_sma_dvarge;
 
 public class LastCharacterReaction extends Reaction {
 
-    public LastCharacterReaction(String reaction, String characterName) {
-        super(reaction, characterName);
+    public LastCharacterReaction(String reaction) {
+        super(reaction);
     }
     
     @Override

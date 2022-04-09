@@ -1,13 +1,14 @@
 package de_syv_sma_dvarge;
 
 public class CallCharacterReaction extends Reaction {
-
-    public CallCharacterReaction(String reaction, String characterName) {
-        super(reaction, characterName);
+    String callCharacter;
+    public CallCharacterReaction(String reaction, String callString) {
+        super(reaction);
+        callCharacter = callString;
     }
     
     @Override
     public String toString() {
-        return reactionType + "s, and " + character + " comes to the rescue!";
+        return reactionType + ", and " + callCharacter + " comes to the rescue!";
     }
 }
