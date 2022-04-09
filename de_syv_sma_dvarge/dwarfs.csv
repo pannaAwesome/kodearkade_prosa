@@ -1,0 +1,5 @@
+name;description;Doc;Grumpy;Sleepy;Dopey
+Doc;the fearsome leader with glasses;drops his glasses in excitement;gets scared:remove;tries to get the dwarfs to work:remove;starts talking backwards:call:Grumpy
+Grumpy;the misnamed dwarf with an otherwise big heart;starts feeling happier:call:Sleepy;starts crying with joy;starts to get mad:remove;needs to handle his emotions:call:Doc
+Sleepy;the not so particularly energized dwarf who sleeps a lot;gets to tired to keep up:call:Dopey;is sleeping:remove;falls asleep;becomes sleepy:call:Grumpy
+Dopey;the shy clumsy and slow one who has difficulty keeping up;falls and breaks his leg:call:Sleepy;is to afraid to speek:call:Doc;gets called annoying:remove;finally catches up with the others
