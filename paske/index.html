@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Find the easter eggs</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="overlay">
+            <div id="game">
+                <p id="game-text"></p><br>
+                <button id="next" onclick="startGame('next')">Next level =></button>
+                <button id="lost" onclick="startGame('lost')">Restart game</button>
+            </div>
+        </div>
+        <header>
+            <h1>Find the egg before the Easter Bunny hides it again!</h1>
+            <div>
+                <button id="new-game" onclick="startGame('new')">New game</button>
+                <button id="no-solution" onclick="checkSolution()">No solution</button>
+                <button id="submit-path" onclick="checkSolution()">Submit path</button>
+            </div>
+        </header>
+        <main id="gameboard"></main>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
